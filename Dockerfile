@@ -1,5 +1,5 @@
 # NuGet restore
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:5.0 AS build
 WORKDIR /src
 COPY *.sln .
 COPY XUnitTestProject2/*.csproj XUnitTestProject2/
